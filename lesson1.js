@@ -4,10 +4,10 @@
 
 function Output(elementClass, checkBoxText, placeHolderText, buttonText, outputFieldText, emptyInputText) {
 	var inputField = document.querySelector(elementClass),
-		checkBox,
-		label,
-		outputButton,
-		outputField;
+		  checkBox,
+		  label,
+		  outputButton,
+		  outputField;
 
 	function disableInputFieldAndRemoveOutput() {
 		inputField.setAttribute("disabled", "disabled");
